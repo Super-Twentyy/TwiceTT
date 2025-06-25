@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  padding-top: 90px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fffafc;
+  color: #333;
+  line-height: 1.5;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #ff6ea0;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-weight: 600;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: #ff4f8b;
+}
+
+.profile-section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.profile-section h2 {
+  color: #ff3d6f;
+  border-bottom: 2px solid #ff85ab;
+  padding-bottom: 0.4rem;
+}
+
+.hero-image {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 1rem 0 2rem 0;
+  box-shadow: 0 6px 15px rgb(255 110 160 / 0.3);
+}
+
+.biodata ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.biodata li {
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+}
+
+.biografi p {
+  text-align: justify;
+  margin-bottom: 1.5rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.7rem;
+  margin-bottom: 1.5rem;
+}
+
+.gallery img {
+  width: 100%;
+  aspect-ratio: 2 / 2.5; /* Rasio proporsional 250:300 */
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 0;
+}
+
+
+.gallery img:hover {
+  transform: scale(1.05);
+  z-index: 10;
+}
+
+.timeline ul {
+  padding-left: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.timeline li {
+  margin-bottom: 0.5rem;
+}
+
+.quote blockquote {
+  font-style: italic;
+  background: #ffe4ec;
+  padding: 1rem;
+  border-left: 5px solid #ff85ab;
+  border-radius: 6px;
+  color: #b0003a;
+  margin-bottom: 1.5rem;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+  padding: 0 1rem;
+}
+
+.nav-btn {
+  background-color: #ec4899;
+  color: white;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nav-btn:hover {
+  background-color: #be185d;
+}
+
+.fan-comment form input,
+.fan-comment form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 0.7rem;
+}
+
+.fan-comment form button {
+  background: #ff6ea0;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.fan-comment form button:hover {
+  background: #ff4f8b;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #fce5ec;
+  color: #555;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .profile-section {
+    padding: 0 0.5rem;
+  }
+}

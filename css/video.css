@@ -1,0 +1,54 @@
+.video-section {
+  max-width: 1200px;
+  margin: 100px auto 60px;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.video-section h3 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.video-grid video {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #f0c;
+  object-fit: cover;
+}
+
+.pagination {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.pagination button {
+  background-color: #f0c;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.pagination button:disabled {
+  background-color: #555;
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+#page-indicator {
+  font-size: 1.2rem;
+}
