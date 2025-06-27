@@ -16,9 +16,9 @@ const albums = {
     cover: "assets/images/albums/marry happy.jpg",
     description: "Celebrate the season with TWICE — where every moment is Merry & Happy!.",
     tracks: [
-      { title: "Heart Sheaker", video: "assets/video/" },
-      { title: "Marry & Happy", video: "assets/video/" },
-      { title: "Likey", video: "assets/video/" }
+      { title: "Heart Sheaker", video: "assets/video/heartshaker.mp4" },
+      { title: "Marry & Happy", video: "assets/video/merry&happy.mp4" },
+      { title: "Likey", video: "assets/video/likey.mp4" }
     ]
   },
   "yesoryes": {
@@ -27,8 +27,8 @@ const albums = {
     cover: "assets/images/albums/yesoryes.jpg",
     description: "When TWICE gives you a choice, there's only one answer: YES or YES!.",
     tracks: [
-      { title: "Say You Love Me", video: "assets/video/" },
-      { title: "Yes Or Yes", video: "assets/video/" },
+      { title: "Say You Love Me", video: "assets/video/sayyouloveme.mp4" },
+      { title: "Yes Or Yes", video: "assets/video/yesoryes.mp4" },
       { title: "Lalala", video: "assets/video/" }
     ]
   },
@@ -38,9 +38,9 @@ const albums = {
     cover: "assets/images/albums/feelspecial.jpg",
     description: "In a world that tries to bring you down, TWICE makes you Feel Special.",
     tracks: [
-      { title: "Feel Special", video: "assets/video/" },
-      { title: "Rainbow", video: "assets/video/" },
-      { title: "Love Foolish", video: "assets/video/" }
+      { title: "Feel Special", video: "assets/video/feelspecial.mp4" },
+      { title: "Rainbow", video: "assets/video/rainbow.mp4" },
+      { title: "Love Foolish", video: "assets/video/lovefoolish.mp4" }
     ]
   }
 };

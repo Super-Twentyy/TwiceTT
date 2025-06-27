@@ -1,16 +1,10 @@
 const videoFiles = [
-  "assets/video/Do it again.mp4",
+  "assets/video/V.mp4",
   "assets/video/Going crazy.mp4",
   "assets/video/Like ooh aah.mp4",
-  "assets/video/vid4.mp4",
-  "assets/video/vid5.mp4",
-  "assets/video/vid6.mp4",
-  "assets/video/vid7.mp4",
-  "assets/video/vid8.mp4",
-  "assets/video/vid9.mp4",
-  "assets/video/vid10.mp4",
-  "assets/video/vid11.mp4",
-  "assets/video/vid12.mp4"
+  "assets/video/heartshaker.mp4",
+  "assets/video/merry&happy.mp4",
+  "assets/video/likey.mp4"
 ];
 
 const videosPerPage = 3;
